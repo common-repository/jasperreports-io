@@ -1,0 +1,35 @@
+body {
+    background-color: lightgray;
+}
+
+._jrHyperLink {
+	cursor: pointer;
+}
+
+#viewerToolbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 600px !important;
+    z-index: 12;
+}
+
+#reportContainer {
+    margin-top: 0 !important;
+    position: relative;
+    top: 28px;
+    overflow: auto;
+}
+
+#reportContainer .jrPage {
+    margin: 0 auto;
+}
+
+#reportContainer ._jr_report_container_ {
+    padding-top: 17px;
+}
+
+#zoomMenu, #exportMenu {
+    z-index: 13;
+}
